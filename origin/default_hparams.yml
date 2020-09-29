@@ -1,0 +1,39 @@
+flickr:
+  epochs: 300
+  batch_size: 6000
+
+  hparams:
+    hidden_units:
+    dropout_rates:
+    learning_rate:
+
+reddit:
+  epochs: 1600
+  batch_size: 3000
+
+ppi:
+  epochs: 2000
+  batch_size: 9000
+
+  hparams:
+    hidden_units:
+    dropout_rates:
+    learning_rate:
+
+ppi-large:
+  epochs: 2500
+  batch_size: 3000
+
+  hparams:
+    hidden_units:
+    dropout_rates:
+    learning_rate:
+
+yelp:
+  epochs: 300
+  batch_size: 6000
+
+  hparams:
+    hidden_units:
+    dropout_rates:
+    learning_rate:
